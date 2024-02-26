@@ -1,0 +1,190 @@
+:root {
+	/* Primary Color: Rich Leather Brown */
+	--primary-color: #964B00;
+	/* Hexadecimal representation */
+
+	/* Secondary Color: Your Secondary Color */
+	--secondary-color: #ff0000;
+
+	/* Other RGB Colors */
+	--color-white: #FFFFFF;
+	--color-black: #000000;
+	--color-red: #FF0000;
+	--color-blue: #0000FF;
+	--color-green: #00FF00;
+}
+
+
+/* Define styles for full-screen sections */
+.full-screen-section {
+	height: 100vh;
+	/* Make sections full screen */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+/* Differentiate colors for sections */
+.section-1 {
+	background-color: #FF5733;
+}
+
+.section-2 {
+	background-color: #33FF6A;
+}
+
+.section-3 {
+	background-color: #3366FF;
+}
+
+/* .section-4 { background-color: #FF33FF; } */
+.section-5 {
+	background-color: #FFFF33;
+}
+
+/* Styling for progress bar */
+#progress-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	height: 5px;
+}
+
+.text {
+	color: var(--color-black);
+	font: 14px;
+}
+
+.open-sans-text {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: var(--color-black);
+	font-variation-settings:
+		"wdth" 50;
+}
+
+
+
+.carousel-caption {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.bg-image {
+	background-size: cover;
+	/* Cover the entire element */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-position: center;
+	/* Center the image horizontally and vertically */
+	height: 100vh;
+	/* Set the height to full viewport height */
+	background-attachment: fixed;
+}
+
+.bg-image-home {
+  background-color: #FFFFFF;
+  /* background: rgba(255, 255, 255, 0.5); */
+	/* background-image: url('https://www.leather-dictionary.com/images/Gerberei-24.jpg'); */
+}
+
+.bg-image-about {
+	background-image: url('https://images.pexels.com/photos/4173272/pexels-photo-4173272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.bg-image-infrastructure {
+	background-image: url('https://images.pexels.com/photos/4173286/pexels-photo-4173286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.bg-image-companyvalues {
+	background-image: url('https://images.pexels.com/photos/4173290/pexels-photo-4173290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.bg-image-leathers {
+	background-image: url('https://images.pexels.com/photos/4173293/pexels-photo-4173293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.bg-image-whyus {
+	background-image: url('https://images.pexels.com/photos/4173282/pexels-photo-4173282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.bg-image-contactus {
+	background-image: url('https://images.pexels.com/photos/4173293/pexels-photo-4173293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.animate {
+	transition: width 2s;
+	width: 300px;
+}
+
+.animate.animated {
+	transform: scale(1.0);
+	border: 10px;
+	padding: 15px;
+	background: var(--primary-color);
+	width: 600px;
+	background-clip: content-box;
+}
+
+.overlay {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* height: 100%; */
+	background-color: rgba(0, 0, 0, 0.7);
+  /* background-color:rgba(150, 75, 0, 0.7); */
+	/* Adjust opacity here */
+	/* opacity: 0.7; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay-slogan {
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	/* width: 100%; */
+	/* height: 100%; */
+	background-color: rgba(150, 75, 0, 0.7);
+	/* Adjust opacity here */
+	/* opacity: 0.7; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	color: var(--color-white);
+	/* font-size: 24px; */
+	text-align: center;
+}
+
+.stroke-me-with-black {
+	-webkit-text-stroke: 0.40px var(--color-black);
+}
+
+.stroke-me-with-white {
+	-webkit-text-stroke: 0.4px var(--color-white);
+}
+
+.footer {
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  text-align: center;
+}
+.contact-info {
+  font-size: 20px;
+  text-decoration: none;
+  /* color: #555; */
+}
