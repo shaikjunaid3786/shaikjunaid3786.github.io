@@ -97,27 +97,27 @@
 }
 
 .bg-image-about {
-	background-image: url('https://images.pexels.com/photos/4173272/pexels-photo-4173272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('/images/bg/about.jpg');
 }
 
 .bg-image-infrastructure {
-	background-image: url('https://images.pexels.com/photos/4173286/pexels-photo-4173286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('/images/bg/infra_and_cv.jpg');
 }
 
 .bg-image-companyvalues {
-	background-image: url('https://images.pexels.com/photos/4173290/pexels-photo-4173290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('/images/bg/infra_and_cv.jpg');
 }
 
 .bg-image-leathers {
-	background-image: url('https://images.pexels.com/photos/4173293/pexels-photo-4173293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('/images/bg/leathers_2.jpg');
 }
 
 .bg-image-whyus {
-	background-image: url('https://images.pexels.com/photos/4173282/pexels-photo-4173282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-image: url('/images/bg/why_us.jpg');
 }
 
 .bg-image-contactus {
-	background-image: url('https://images.pexels.com/photos/4173293/pexels-photo-4173293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	/* background-image: url('https://images.pexels.com/photos/4173293/pexels-photo-4173293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
 }
 
 .animate {
