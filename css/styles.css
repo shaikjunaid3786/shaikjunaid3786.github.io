@@ -1,0 +1,218 @@
+:root {
+    /* Primary Color: Rich Leather Brown */
+    --primary-color: #964B00;
+    /* Hexadecimal representation */
+
+    /* Secondary Color: Your Secondary Color */
+    --secondary-color: #ff0000;
+
+    /* Other RGB Colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-red: #FF0000;
+    --color-blue: #0000FF;
+    --color-green: #00FF00;
+}
+
+
+.section {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #b6673e;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center-align */
+    align-items: center;
+    /* Vertically center-align */
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    /* Horizontally center-align text */
+}
+
+.parallax-bg {
+    background-size: cover;
+    /* Cover the entire element */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-position: center center;
+    /* Center the image horizontally and vertically */
+    height: 100vh;
+    /* Set the height to full viewport height */
+    background-attachment: scroll;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    color: #000;
+    position: relative;
+}
+
+.parallax-bg.ios {
+    background-attachment: scroll;
+}
+
+#home {
+    background-image: url('https://images.pexels.com/photos/4173272/pexels-photo-4173272.jpeg');
+}
+
+
+#about {
+    /* padding-top: 100px; Add padding to the top of the section */
+    background-image: url('/images/bg/about.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #about {
+        padding-top: 550px;
+        padding-bottom: 700px;
+    }
+}
+
+#infrastructure {
+    background-image: url('/images/bg/infra_and_cv.jpg');
+}
+
+#company_values {
+    background-image: url('/images/bg/infra_and_cv.jpg');
+}
+
+#leathers {
+    background-image: url('/images/bg/leathers.jpg');
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #leathers {
+        padding-top: 875px;
+        padding-bottom: 1000px;
+    }
+}
+
+#why_us {
+    background-image: url('/images/bg/why_us.jpg');
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #contact {
+        padding-top: 700px;
+    }
+}
+
+
+.navbar {
+    transition: background-color 0.5s ease;
+    background-color: #b6673e;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
+#progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 5px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+
+.overlay-slogan {
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-sans-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 50;
+}
+
+.text-color-black {
+    color: var(--color-black);
+}
+
+.text-color-white {
+    color: var(--color-white);
+}
+
+.animate {
+    transition: background 2s;
+    border: 10px;
+}
+
+.animate.animated {
+    transform: scale(1.0);
+    background: var(--primary-color);
+    background-clip: content-box;
+}
+
+.stroke-me-with-black {
+    -webkit-text-stroke: 0.40px var(--color-black);
+}
+
+.stroke-me-with-white {
+    -webkit-text-stroke: 0.4px var(--color-white);
+}
